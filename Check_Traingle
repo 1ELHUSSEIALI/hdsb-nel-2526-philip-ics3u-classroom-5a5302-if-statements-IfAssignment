@@ -1,0 +1,25 @@
+# Assignment: Triangle Validity Check
+# Student: Ali Elhusseiny
+# Description:
+#   This program checks whether a triangle can be
+#   formed from three given angles.
+
+# Test Data:
+# Input: 40, 55, 65
+# Expected Output: The triangle is not valid.
+
+#  Program Starts Here 
+
+# Input angles
+angle1 = 40
+angle2 = 55
+angle3 = 65
+
+# Calculate the sum of the angles
+sum_of_angles = angle1 + angle2 + angle3
+
+# Check validity
+if sum_of_angles == 180:
+    print("The triangle is valid.")
+else:
+    print("The triangle is not valid.")
